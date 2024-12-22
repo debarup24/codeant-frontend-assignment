@@ -1,0 +1,51 @@
+export const RepoData = [
+  {
+    title: "design-system",
+    visibility: "Public",
+    tech: "React",
+    size: "7320 KB",
+    updatedAt: "1 day",
+  },
+  {
+    title: "codeant-ci-app",
+    visibility: "Private",
+    tech: "Javascript",
+    size: "5871 KB",
+    updatedAt: " 2 days",
+  },
+  {
+    title: "analytics-dashboard",
+    visibility: "Private",
+    tech: "Python",
+    size: "4521 KB",
+    updatedAt: "5 days",
+  },
+  {
+    title: "mobile-app",
+    visibility: "Public",
+    tech: "Swift",
+    size: "3096 KB",
+    updatedAt: "3 days",
+  },
+  {
+    title: "e-commerce-platform",
+    visibility: "Private",
+    tech: "Java",
+    size: "6210 KB",
+    updatedAt: "6 days",
+  },
+  {
+    title: "blog-website",
+    visibility: "Public",
+    tech: "HTML/CSS",
+    size: "1876 KB",
+    updatedAt: "4 days",
+  },
+  {
+    title: "social-network",
+    visibility: "Private",
+    tech: "PHP",
+    size: "5432 KB",
+    updatedAt: "7 days",
+  },
+];
