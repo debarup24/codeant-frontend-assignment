@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 const AiToDetect = () => {
   return (
-    <div className="max-sm:hidden max-md:visible max-lg:visible min-h-screen mr-8 p-4 w-1/2 ">
+    <div className="max-sm:hidden max-md:visible max-lg:visible min-h-screen  p-4 mr-1 w-1/2 bg-white ">
       {/* cards 1 */}
       <div className="items-center">
         <div className="absolute z-0 w-[447px] h-[170px] p-4 rounded-3xl shadow-xl shadow-slate-300 bg-white mt-[110px] ml-[123px]">

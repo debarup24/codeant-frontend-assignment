@@ -6,9 +6,9 @@ const SigninToggle = () => {
   const [isSaasBtn, setSaasBtn] = useState(true);
 
   return (
-    <div className="md:w-1/2 sm:w-full min-h-screen bg-gray-50 p-6">
+    <div className="md:w-1/2 sm:w-full min-h-screen bg-gray-700 py-5 px-16 md:p-5">
       {/* card */}
-      <div className=" bg-white md:w-[666px] md:h-[594px] rounded-xl mt-14 shadow-lg shadow-gray-200 border-2 border-gray-200">
+      <div className=" bg-white md:w-[672px] md:h-[594px] rounded-xl mt-14 ml-0 md:ml-6 shadow-lg shadow-gray-200 border-2 border-gray-200">
         {/* upper part */}
         <div className="flex justify-center gap-3">
           <img
@@ -81,54 +81,53 @@ const SigninToggle = () => {
               />{" "}
               Sign in with Bitbucket
             </Link>
-            <a
-              href="/repository"
-              button
+            <Link
+              to={"/repository"}
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
               <img className="my-[4px]" src={assets.Azure_icon} alt="" /> Sign
               in with Azure Devops
-            </a>
+            </Link>
 
-            <a
-              href="/repository"
+            <Link
+              to={"/repository"}
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
               <img className="my-[4px]" src={assets.GitLab_icon} alt="" />
               Sign in with GitLab
-            </a>
+            </Link>
           </div>
         ) : (
           // if Self Hosted = TRUE
           <div className="flex flex-col px-4 md:px-28 ">
-            <a
-              href="/repository"
+            <Link
+              to={"/repository"}
               className="py-3 mt-4 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
               <img className="my-[4px]" src={assets.GitLab_icon} alt="" /> Self
               Hosted GitLab
-            </a>
-            <a
-              href="/repository"
+            </Link>
+            <Link
+              to={"/repository"}
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
               <img className="my-[4px]" src={assets.Ssokey_icon} alt="" /> Sign
               in with SSO
-            </a>
+            </Link>
           </div>
         )}
       </div>
 
       <div>
-        <p className="flex my-1 mt-4 mx-2 md:mx-auto justify-center">
-          By signing up you agree to the <span>{""}</span>
-          <span className="font-bold text-sm mx-1 my-1 hover:underline">
+        <p className="flex-row my-1 mt-4 mx-2 text-sm md:mx-auto justify-center ">
+          By signing up you agree to the
+          <b className=" font-bold text-sm mx-1 my-1 hover:underline">
             Privacy Policy.
-          </span>
+          </b>
         </p>
       </div>
     </div>
