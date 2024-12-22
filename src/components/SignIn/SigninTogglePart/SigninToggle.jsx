@@ -54,7 +54,7 @@ const SigninToggle = () => {
         {isSaasBtn ? (
           <div className="flex flex-col px-4 md:px-28 ">
             <a
-              href={"/repository"}
+              href="/repository"
               className="py-3 mt-4 mb-4 flex justify-center gap-4 rounded-md
               bg-white border-gray-300 border-solid border-[1.5px]
               outline-none"
@@ -65,7 +65,7 @@ const SigninToggle = () => {
             </a>
 
             <a
-              href={"/repository"}
+              href="/repository"
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
@@ -77,7 +77,7 @@ const SigninToggle = () => {
               Sign in with Bitbucket
             </a>
             <a
-              href={"/repository"}
+              href="/repository"
               button
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
@@ -87,7 +87,7 @@ const SigninToggle = () => {
             </a>
 
             <a
-              href={"/repository"}
+              href="/repository"
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
@@ -99,7 +99,7 @@ const SigninToggle = () => {
           // if Self Hosted = TRUE
           <div className="flex flex-col px-4 md:px-28 ">
             <a
-              href={"/repository"}
+              href="/repository"
               className="py-3 mt-4 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
@@ -107,7 +107,7 @@ const SigninToggle = () => {
               Hosted GitLab
             </a>
             <a
-              href={"/repository"}
+              href="/repository"
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
