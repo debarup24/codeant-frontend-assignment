@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div
         className={`hidden md:inline-flex flex-col min-h-screen ${
           IsExtended ? "w-60" : "w-24"
-        } py-3 px-3 bg-white shadow-sm shadow-gray-400`}
+        } py-3 px-3 bg-white shadow-sm shadow-gray-300`}
       >
         {IsExtended ? (
           <FaRegArrowAltCircleLeft

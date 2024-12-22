@@ -19,7 +19,7 @@ const Repository = () => {
   };
 
   return (
-    <div className="p-0 md:py-1 md:px-3 w-screen ">
+    <div className="p-0 md:py-1 md:px-3 w-screen">
       <div className="bg-white w-full rounded-xl border flex flex-col">
         <div className="flex justify-between items-center flex-wrap gap-4">
           <div className="flex flex-col p-1 md:p-2 mx-2 mt-16 md:mt-0">
