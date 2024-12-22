@@ -6,9 +6,9 @@ const SigninToggle = () => {
   const [isSaasBtn, setSaasBtn] = useState(true);
 
   return (
-    <div className="md:w-1/2 sm:w-full min-h-screen bg-gray-700 py-5 px-16 md:p-5">
+    <div className="md:w-1/2 sm:w-full min-h-screen bg-gray-50 p-8">
       {/* card */}
-      <div className=" bg-white md:w-[672px] md:h-[594px] rounded-xl mt-14 ml-0 md:ml-6 shadow-lg shadow-gray-200 border-2 border-gray-200">
+      <div className=" bg-white md:w-[666px] md:h-[580px] rounded-xl mt-12 shadow-lg shadow-gray-200 border-2 border-gray-200">
         {/* upper part */}
         <div className="flex justify-center gap-3">
           <img
@@ -123,11 +123,9 @@ const SigninToggle = () => {
       </div>
 
       <div>
-        <p className="flex-row my-1 mt-4 mx-2 text-sm md:mx-auto justify-center ">
+        <p className="flex my-1 mt-4 mx-1 md:mx-auto justify-center">
           By signing up you agree to the
-          <b className=" font-bold text-sm mx-1 my-1 hover:underline">
-            Privacy Policy.
-          </b>
+          <b className=" text-sm mx-1 my-1 hover:underline">Privacy Policy.</b>
         </p>
       </div>
     </div>

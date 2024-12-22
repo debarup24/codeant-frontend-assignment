@@ -19,6 +19,11 @@ const UserDropdown = () => {
         break;
       }
       case "user4": {
+        setUser({ name: "CodeAnt Bot" });
+        break;
+      }
+
+      case "user5": {
         setUser({ name: "Debarup Sarkar" });
         break;
       }
@@ -39,7 +44,8 @@ const UserDropdown = () => {
           <option value="user1">UtkarshDhairyaPanwar</option>
           <option value="user2">AmartyaJha</option>
           <option value="user3">ChinmayBharti</option>
-          <option value="user4">DebarupSarkar</option>
+          <option value="user4">CodeAnt Bot</option>
+          <option value="user5">DebarupSarkar</option>
         </select>
       </div>
     </div>
