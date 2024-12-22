@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { assets } from "../../../assets/assets";
+import { Link } from "react-router-dom";
 
 const SigninToggle = () => {
   const [isSaasBtn, setSaasBtn] = useState(true);
@@ -53,8 +54,12 @@ const SigninToggle = () => {
 
         {isSaasBtn ? (
           <div className="flex flex-col px-4 md:px-28 ">
-            <a
-              href="/repository"
+            {/* <Link to={"/"}>
+        <img src={logo} alt="logo" className="logo" />{" "}
+      </Link> */}
+
+            <Link
+              to={"/repository"}
               className="py-3 mt-4 mb-4 flex justify-center gap-4 rounded-md
               bg-white border-gray-300 border-solid border-[1.5px]
               outline-none"
@@ -62,10 +67,10 @@ const SigninToggle = () => {
               {" "}
               <img className="my-[4px]" src={assets.Github_icon} alt="" /> Sign
               in with GitHub
-            </a>
+            </Link>
 
-            <a
-              href="/repository"
+            <Link
+              to={"/repository"}
               className="py-3 mb-4 flex justify-center gap-4 rounded-md bg-white border-gray-300 border-solid border-[1.5px] outline-none"
             >
               {" "}
@@ -75,7 +80,7 @@ const SigninToggle = () => {
                 alt=""
               />{" "}
               Sign in with Bitbucket
-            </a>
+            </Link>
             <a
               href="/repository"
               button
