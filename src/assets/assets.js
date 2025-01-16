@@ -27,5 +27,3 @@ export const assets = {
     Github_icon,
     Ssokey_icon,
 } 
-
-// https://github.com/deadland2002/codeantai
